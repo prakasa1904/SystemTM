@@ -1,0 +1,334 @@
+#terpusat-header-left{
+	text-align: left;
+}
+#terpusat-header-right{
+	text-align: right;
+}
+/*  Class Judul Di Home */
+.terpusat-h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #393939;
+	text-rendering: optimizelegibility;
+	font-family: inherit;
+	margin: 5px 0px;
+}
+
+.terpusat-h2{
+	font-size: 14px;
+	font-weight: bold;
+	color: #393939;
+	text-rendering: optimizelegibility;
+	font-family: inherit;
+	margin: 10px 0px;
+}
+
+.terpusat-h3{
+}
+
+.terpusat-h4{
+}
+
+.terpusat-h5{
+}
+
+.terpusat-h6{
+}
+
+.terpusat-p{
+}
+
+/* Helper Class */
+.terpusat-breadcumb{
+	font-size: 11px;
+	padding: 7px 14px;
+	margin: 0 0 18px;
+	list-style: none;
+	background-color: #fbfbfb;
+	background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+	background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: linear-gradient(top, #ffffff, #f5f5f5);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+	border: 1px solid #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 0 #ffffff;
+	-moz-box-shadow: inset 0 1px 0 #ffffff;
+	box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.terpusat-legend-top{
+	margin-top: 20px;
+}
+
+.terpusat-legend-bottom{
+	margin-top: 20px;
+}
+
+/* ============================== Class Home Start ============================== */
+a{color:#252424;}
+a:hover, a:focus{color:#252424;text-decoration:underline;}
+em{color:#8c8c8c;}
+
+.tab-sidebar-title{
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0px;
+}
+.sidebar-tengah-kiri{
+	border:solid 3px #e94f1d;
+	margin-left: 15px;
+}
+.judul-sidebar-tengah-kiri{
+	text-align: center;
+	margin: -15px 0px 0px 0px;
+	background: #e94f1d;
+	color: #fff;
+	width: 40%;
+	padding: 10px 5px;
+	display: inline-block;
+	left: 30%;
+	position: absolute;
+	z-index: 999;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.margin-top-sidebar-tengah-kiri{
+	margin-top: 45px;
+}
+
+.list-sidebar-tengah-kiri{
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 3px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.sidebar-tengah-kanan{
+	width:73%;
+}
+
+.list-sidebar-tengah-kanan{
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.title-list-sidebar-tengah-kanan{
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0px;
+	line-height: 20px;
+}
+
+
+/* Category Home Page */
+.abs-label{
+	position: absolute;
+	color: azure;
+	background: #000;
+	padding: 8px;
+	font-weight:bold;
+}
+
+/* Caption*/
+.abs-caption{
+	position: inherit;
+}
+#abs-title{
+	position: absolute;
+	color: #fff;
+	background: #000;
+	padding: 8px;
+	opacity: 0.60;
+	font-weight:bold;
+}
+#abs-title a{color: #fff;}
+
+@media(min-width:1200px){
+	#abs-title{bottom: 0px;width: 100%;}
+}
+@media(min-width:980px) and (max-width:1150px){
+	#abs-title{bottom: 0px;width: 100%;}
+
+}
+@media(min-width:768px) and (max-width:979px){
+	#abs-title{bottom: 0px;width: 100%;}
+}
+@media(max-width:767px){
+	#abs-title{bottom: 0px;width: 100%;}
+}
+
+.title-home-terpusat-portal{
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0px;
+	line-height:20px;
+}
+
+.title-home-terpusat-portal-list{
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0px;
+	line-height:25px;
+}
+
+/* Footer Homepage */
+footer {
+  margin: 50px 0;
+}
+/* ============================== Class Home End ============================== */
+
+/* ============================== Class Detail Start ============================== */
+#terpusat-breadcumb{}
+#terpusat-meta{line-height: 10px;}
+#terpusat-meta-img{line-height: 0px;font-weight: normal;color: #999999;font-size: 11px;}
+#terpusat-title{
+	font-size: 28px;
+	font-weight: bold;
+	font-family: OpenSans-B,helvetica,sans-serif;
+	line-height: 35px;
+	color:#393939;
+}
+#terpusat-content{
+	display:inline-block;
+	color: #393939;
+    font-size: 14px;
+    line-height: 25px;
+}
+#terpusat-comment{display:block;}
+
+.terpusat-meta{
+	margin: 15px 0px 5px 0px;
+	font-weight: normal;
+	color: #999999;
+	font-size: 11px;
+}
+
+.list-sidebar-related{
+	font-size: 11px;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.header-sidebar-page-title{
+	color: #eee;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 0px 10px;
+}
+
+.header-sidebar-page-title-invers{
+	color: #393939;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 0px 10px;
+}
+
+.sidebar-page-title{
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	margin: 0px;
+	padding:10px 5px;
+}
+/* ============================== Class Detail End ============================== */
+
+/* ============================== Class Error Start ============================== */
+
+#error-page {
+	font-family: 'Audiowide', cursive, arial, helvetica, sans-serif;
+	font-size: 18px;
+	padding-bottom:20px;
+}
+
+#error-page .error-code{
+	font-family: 'Creepster', cursive, arial, helvetica, sans-serif;
+	font-size: 200px;
+	width: 55%;
+	text-align: right;
+	text-shadow: 5px 5px hsl(0, 0%, 25%);
+	float: left;
+}
+#error-page .not-found{
+	width: 40%;
+	float: right;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px hsl(0, 0%, 61%);
+	padding-top: 70px;
+}
+#error-page .clear{
+	float:none;
+	clear:both;
+}
+
+#error-page .content{
+	text-align:center;
+	line-height: 30px;
+}
+
+#error-page input[type=text]{
+	border: hsl(247, 89%, 72%) solid 1px;
+	outline: none;
+	padding: 5px 3px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+/* ============================== Class Error End ============================== */
+/* General Border */
+.border-line{
+	border-bottom:solid 3px #e94f1d;
+}
+
+/* Thumbnail di bawah headline */
+.hero-spacer {margin-top: 50px;}
+.hero-feature {margin-bottom: 30px;}
+
+/* Image Slide Home Page */
+.slide-image {
+  width: 100%;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  color: #d17581;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}

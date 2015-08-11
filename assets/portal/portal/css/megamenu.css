@@ -1,0 +1,54 @@
+    .navbar-inverse .navbar-nav > .selected > a, .navbar-inverse .navbar-nav > .selected > a:hover, .navbar-inverse .navbar-nav > .selected > a:focus{
+      color: #fff;
+      background-color: #080808 !important;
+    }
+    /* Grid demo styles */
+    .layout-demo,
+    .grid-demo {
+      padding: 10px 20px;
+    }
+
+    .layout-demo [class*="span"] {
+      line-height: 80px;
+    }
+
+    .grid-demo [class*="span"] {
+      line-height: 30px;
+    }
+
+		.grid-demo [class*="span"],
+    .layout-demo [class*="span"] {
+			background: #eee;
+			margin-top: 5px;
+      margin-bottom: 5px;
+			font-size: 12px;
+			text-align: center;
+      font-weight: bold;
+		}
+		.grid-demo [class*="span"]:hover,
+    .layout-demo [class*="span"]:hover {
+			background: #ddd;
+		}
+    /* End Grid demo styles */
+
+    .yamm .accordion, .yamm-nav,
+    .yamm table, .yamm form,
+    .yamm .thumbnails li {
+      margin-bottom: 0;
+    }
+
+		/*-----------------------------
+		  socialize
+		 -----------------------------*/
+		.social {
+			text-align: right;
+		}
+		.social-buttons {
+			list-style-type: none;
+		}
+		.social-buttons li {
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+			line-height: 1;
+		}
